@@ -1,0 +1,138 @@
+/ * Documento CSS * /
+
+body{
+    font-family:  verdana;
+    font-size: 12pt;
+    background: #5c0045;
+    
+        }
+#bod {
+    width: 430px;
+    height: 420px;
+    margin: 0 auto;
+}
+
+#principal {
+    width: 430px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#topo {
+    background-image: url(img/topo.jpg);
+    height: 179px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 8px;
+} 
+}
+    
+table.cal{
+    color:#952756;
+    border:3px solid #000;
+    border-spacing: 0;
+    
+            
+        }
+.cal caption{
+    text-transform: uppercase;
+    background: #e08eda;
+    color: #656571;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+    
+img{
+    width: 55px;
+    height: 55px;
+}
+            
+      
+td:nth-child(odd){
+    background: #b52cd0;
+            
+        }
+
+td:nth-child(even){
+    background: #d095c9;
+        }
+
+.cal th, cal td{
+    margin: 2px;
+    padding-bottom: 2px;
+        }
+
+th{
+    text-align: center;
+    background: #000000;
+        }
+
+.cal td{
+    height: 58px;
+    width: 92px;
+    text-align: 55px;
+    text-align: center;
+    vertical-align: middle;
+        }
+
+tr:first-child>td:first-child{
+    border-radius: 0 0 0 0;
+            
+        }
+
+tr:first-child>td:last-child{
+    border-radius: 0 0 0 0;
+        }
+
+tr>td:first-child, 
+tr>td:last-child{
+    color: #05332d;
+        }
+
+tr:first-child>
+td:firts-child{
+    color:#900707;
+        }
+
+td:nth-child(even){
+    border-right: 1px solid #d82593;
+    border-left: 1px solid #960d8c;
+        }
+
+td.old{
+    background: #918f91;
+    color: #4b3e3e;
+     
+            
+        }
+td.feriado{
+        
+    background: #42aeb2;
+        }
+
+td.niver{
+    background: #c7ea69;
+    color: #af53bf;
+}
+    
+.um {
+    background: #e0a8ff;
+}
+
+.dois{
+    background: #dd8bff;
+}
+
+span{
+        display: none;
+        text-align: center;
+        color: #9e21b7;
+        font-size: 7pt;
+    
+        }
+    
+td:hover>span{
+        display:block;
+            
+        }
